@@ -4,7 +4,7 @@ An advanced predictive model designed to forecast the number of taxi rides for a
 Forecast the upcoming hour's demand for NYC taxis, optimizing fleet distribution and revenue generation. This guide provides a comprehensive overview of project setup, execution, and continuous improvement.
 
 Table of Contents
- * Web App Overview
- * Feature/Training/Inference Pipelines
+ * Application Overview
+ * Features/Training/Inference Pipelines
  * Code Structure
  * Installation
