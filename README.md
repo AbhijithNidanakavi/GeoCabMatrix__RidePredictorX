@@ -31,6 +31,29 @@ The Inference Pipeline is designed to fetch the most recent data, preprocess it,
 
 ## Code Structure :
 The project maintains a well-structured directory layout, promoting clarity, modularity, and seamless navigation. Below is an outline of the structure:
+.
+├── README.md                     - provides an overview of the project
 
+│   ├── raw                       - contains the raw, unprocessed ride data.
+│   │   ├── rides_2022-01.parquet 
+│   │   ├── rides_2022-02.parquet 
+│   │   └── ...
+│   └── transformed               - contains datasets that have undergone some form of processing
+│       ├── tabular_data.parquet  
+│       ├── ts_data_rides_2022_01.parquet  
+│       └── validated_rides_2022_01.parquet 
+│       └── ... 
+├── models                        - any machine learning models.
+├── notebooks                     - exploratory and developmental Jupyter notebooks.
+│   ├── 01_load_and_validate_raw_data.ipynb
+│   ├── 02_transform_raw_data_into_ts_data.ipynb
+│   ├── 03_transform_ts_data_into_features_and_targets.ipynb
+│   ├── ...
+├── pyproject.toml                - project metadata and dependencies
+├── scripts                       - scripts for automation, data collection, and other utilities.
+├── src                           - directory containing reusable code, functions, and classes.
+└── tests                         - test scripts for functionalities
 
+## Installation : 
+To get underway, clone this repository and establish the environment:
 
