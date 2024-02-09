@@ -61,3 +61,7 @@ The project maintains a well-structured directory layout, promoting clarity, mod
 ## Installation : 
 To get underway, clone this repository and establish the environment:
 
+git clone https://github.com/AbhijithNidanakavi/GeoCabMatrix__RidePredictorX
+cd GeoCabMatrix__RidePredictorX
+poetry install
+poetry shell
