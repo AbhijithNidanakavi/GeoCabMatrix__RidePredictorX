@@ -35,6 +35,8 @@ The Inference Pipeline is designed to fetch the most recent data, preprocess it,
 
 ## Code Structure :
 The project maintains a well-structured directory layout, promoting clarity, modularity, and seamless navigation. Below is an outline of the structure:
+
+```shell
 .
 ├── README.md                     - provides an overview of the project
 
@@ -57,6 +59,7 @@ The project maintains a well-structured directory layout, promoting clarity, mod
 ├── scripts                       - scripts for automation, data collection, and other utilities.
 ├── src                           - directory containing reusable code, functions, and classes.
 └── tests                         - test scripts for functionalities
+```
 
 ## Installation : 
 To get underway, clone this repository and establish the environment:
