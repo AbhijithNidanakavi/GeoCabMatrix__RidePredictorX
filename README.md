@@ -1,6 +1,8 @@
 # GeoCabMatrix__RidePredictorX
 An advanced predictive model designed to forecast the number of taxi rides for any given location at any specific times of the day for NYC. The model utilizes sophisticated data analysis techniques to accurately anticipate ride demand, enabling taxi companies to strategically allocate their resources.
-The implementation of this model significantly enhances the operational efficiency of taxi companies. It ensures a more dynamic and responsive service by predicting and meeting the fluctuating demands for rides. This not only improves customer satisfaction by reducing wait times but also optimizes the fleet usage, leading to increased profitability and resource management efficiency.
+The implementation of this model significantly enhances the operational efficiency of taxi companies. It ensures a more dynamic and responsive service by predicting and meeting the fluctuating demands for rides. This not only improves customer satisfaction by reducing wait times but also optimizes the fleet usage, leading to increased profitability and resource management efficiency. 
+
+The NYC taxi ride data, acquired from the NYC TLC website, covers the period from January to June 2023. Stored in .parquet format, the dataset contains a vast array of information, including pickup and drop-off times, geographical coordinates, and other relevant attributes. Each month's data comprises 3 million records, totaling 18 million records across the entire dataset, with each record containing 16 features.
 
 ![GeoCabMatrix Web App Image](https://github.com/AbhijithNidanakavi/GeoCabMatrix__RidePredictorX/assets/91921508/d1c4b7b7-a550-4491-9a55-f92c36aa03d4)
 
